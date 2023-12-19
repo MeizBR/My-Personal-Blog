@@ -1,0 +1,22 @@
+#introduction {
+    border: 3px solid steelblue;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    width: 70%;
+}
+
+#photos {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#photos img {
+    width: 21%;
+    height: 150px;
+    border: 2px solid cornflowerblue;
+    border-radius: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}

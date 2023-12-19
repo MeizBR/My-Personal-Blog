@@ -1,0 +1,13 @@
+.cards-container {
+    margin: 20px 30px;
+}
+
+h5 {
+    text-align: center;
+    color: steelblue;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+}

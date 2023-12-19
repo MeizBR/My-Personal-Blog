@@ -1,0 +1,41 @@
+#projects-container nav .details {
+    display: block;
+}
+
+#projects-container .details {
+    width: 80%;
+    margin: 15px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#title img {
+    width: 22px;
+    position: absolute;
+    left: 1180px;
+    cursor: pointer;
+}
+
+span {
+    color: steelblue;
+    text-decoration: underline;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+h3 {
+    text-align: center;
+    margin: 15px;
+}

@@ -1,0 +1,19 @@
+<div id="introduction">
+    <h3 class="text-primary">About Myself</h3>
+    <h5>
+      Hello, I'm Maiez Ben Romdhane, a third-year Telecommunications Engineering student at ENET'COM.<br>My curiosity and passion drive me toward the realms of Web Development and Cybersecurity.<br>I'm eager to apply my skills to real-world scenarios and tackle challenges head-on.<br>Outside the academic sphere, I indulge in reading, sports, particularly football, and have a keen interest in history.
+    </h5>
+    <iframe src="https://giphy.com/embed/xUPGGDNsLvqsBOhuU0" width="480" height="150" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  </div>
+  
+  <div id="introduction">
+    <h3 class="text-primary">My Hobbies</h3>
+    <div id="photos">
+      <img class="hobby-image" src="../assets/football.jpg" alt="" (click)="displayWord('Football')">
+      <img class="hobby-image" src="../assets/bodybuilding.jpg" alt="" (click)="displayWord('Bodybuilding')">
+      <img class="hobby-image" src="../assets/reading.jpg" alt="" (click)="displayWord('Reading')">
+      <img class="hobby-image" src="../assets/history.webp" alt="" (click)="displayWord('History')">
+    </div>
+    <h5 style="margin-top: 10px;">Click the images above !</h5>
+    <h5 class="text-info">{{ selectedWord }}</h5>
+  </div>

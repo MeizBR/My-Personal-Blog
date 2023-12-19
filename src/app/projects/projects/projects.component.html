@@ -1,0 +1,16 @@
+<h3 class="text-info">My Projects</h3>
+
+<div id="projects-container" *ngFor="let project of projects; let i = index">
+    <nav aria-label="breadcrumb">
+        <div class="breadcrumb details">
+          <div id="title">
+            <h5 class="text-danger">{{ project.title }}</h5>
+            <img src="../../../assets/drop.svg" alt="" (click)="displayHidden(i)">
+          </div>
+          <h5 class="hidden-content">
+            <span>Activities:</span> {{ project.activities }}<br><br>
+            <span>Tools:</span> {{ project.tools }}
+          </h5>
+        </div>
+    </nav>
+</div>
